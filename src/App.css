@@ -7,7 +7,7 @@ body{
 
 }
 .main{
-    background-color: rgb(7, 2, 71);
+    background-color: rgb(168, 163, 231);
     justify-content: center;
     width: 50%;
     margin-left: 26%;
@@ -15,7 +15,7 @@ body{
     text-align: center;
     padding: 20px;
 }
-input[type=text], select{
+.main-input[type=text], select{
     width: 80%;
     padding: 12px 20px;
     margin: 30px 0;
@@ -25,19 +25,43 @@ input[type=text], select{
      box-sizing: border-box;
     
 }
-.button{
+.edit-input{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+    
+}
+.save-btn{
     width: 15%;
-    background-color: green;
+    background-color: rgb(89, 45, 172);
     color:white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin-left: 10px 0;
+    float: right;
+
+}
+.button{
+    width: 15%;
+    background-color: rgb(89, 45, 172);
+    color:white;
+    padding: 14px 20px;
+    margin-left: 10px 0;
+    
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
 }
+.edit-remove{
+    float: right;
+    margin-right: 60px;
+}
 .button:hover{
-    background-color: rgb(10, 211, 10);
+    background-color: rgb(108, 82, 170);
 }
 .header{
     width: 100%;
@@ -52,7 +76,7 @@ input[type=text], select{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
     background-color: cadetblue;
-    width: 60%;
+    width: 40%;
 }
 .listData{
     color: black;
